@@ -5,8 +5,8 @@
   pre_tasks:
     - name: update repositories
       apt:
-        upgrade: yes
         update_cache: yes
+        upgrade: yes
       changed_when: False
 
   tasks:
