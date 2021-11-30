@@ -2,3 +2,9 @@
   apt:
     name:
       - htop
+      - python3-apt
+      - gnupg
+      - unzip
+      - ufw
+      - openvpn
+      - net-tools
