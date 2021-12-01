@@ -1,0 +1,7 @@
+- name: copy dtwin files
+  copy:
+    src: files/sbio.css
+    dest: /opt/dTwin-data/filestore/public
+    owner: dtwins
+    group: dtwins
+    mode: 0644
