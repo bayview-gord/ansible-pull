@@ -9,3 +9,4 @@
       - openvpn
       - net-tools
       - nmap
+      - screen
