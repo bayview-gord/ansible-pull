@@ -1,0 +1,7 @@
+[server]
+
+[workstation]
+gord-laptop
+
+[rcc]
+RCCDevDeploy ansible_host=10.10.25.100

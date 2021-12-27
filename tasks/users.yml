@@ -1,12 +1,12 @@
-- name: create ansible user
+- name: create user gord
   user:
-    name: ansible
+    name: gord
     system: yes
 
-- name: copy sudoers_ansible
+- name: copy sudoers_gord
   copy:
-    src: files/sudoers_ansible
-    dest: /etc/sudoers.d/ansible
+    src: files/sudoers_gord
+    dest: /etc/sudoers.d/gord
     owner: root
     group: root
     mode: 0400
